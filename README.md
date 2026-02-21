@@ -1,4 +1,4 @@
-# 🌟 Client Loyalty Extractor
+#  Client Loyalty Extractor
 
 > **Pipeline de données desktop** qui extrait les clients fidèles depuis des fichiers `.docx` d'agenda, déduplique les entrées par fuzzy matching, et exporte des CSV prêts à importer dans **Odoo CRM** — le tout depuis une interface graphique Tkinter.
 
@@ -10,13 +10,13 @@
 
 ---
 
-## 📸 Interface
+##  Interface
 
 ![App Screenshot](assets/screenshot.png)
 
 ---
 
-## 📋 Contexte
+##  Contexte
 
 Un centre bien-être gérait ses rendez-vous dans **des dizaines de fichiers Word** — formats incohérents, noms/téléphones mélangés, doublons entre fichiers, aucune base centralisée.
 
@@ -24,7 +24,7 @@ Un centre bien-être gérait ses rendez-vous dans **des dizaines de fichiers Wor
 
 ---
 
-## 🎯 Fonctionnalités
+##  Fonctionnality
 
 | Fonctionnalité | Description |
 |---|---|
@@ -39,7 +39,7 @@ Un centre bien-être gérait ses rendez-vous dans **des dizaines de fichiers Wor
 
 ---
 
-## 🗂️ Structure
+##  Structure
 
 ```
 radiance-crm/
@@ -54,7 +54,7 @@ radiance-crm/
 
 ---
 
-## ⚙️ Installation
+##  Installation
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/radiance-crm.git
@@ -64,7 +64,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🚀 Utilisation
+##  Utilisation
 
 ```bash
 python radiance_crm_app.py
@@ -77,7 +77,7 @@ python radiance_crm_app.py
 
 ---
 
-## 🧠 Point technique clé — Déduplication fuzzy
+##  Point technique clé — Déduplication fuzzy
 
 ```python
 def calculate_similarity(c1, c2) -> float:
@@ -92,7 +92,7 @@ def calculate_similarity(c1, c2) -> float:
 
 ---
 
-## 💼 Impact métier
+##  Impact métier
 
 - ⏱️ Traitement réduit de ~3h/mois à moins de 2 minutes
 - 🧹 Suppression des doublons dans Odoo CRM
