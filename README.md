@@ -1,4 +1,4 @@
-# 🌟 Radiance CRM — Client Loyalty Extractor
+# 🌟 Client Loyalty Extractor
 
 > **Pipeline de données desktop** qui extrait les clients fidèles depuis des fichiers `.docx` d'agenda, déduplique les entrées par fuzzy matching, et exporte des CSV prêts à importer dans **Odoo CRM** — le tout depuis une interface graphique Tkinter.
 
